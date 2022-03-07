@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="order-summary card" />
+    <title>Order Summary Landing Page</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="img-banner">
+        <img src="/images/illustration-hero.svg" alt="" />
+      </div>
+
+      <!-- A div for the showcase area -->
+
+      <div class="showcase">
+        <h3>Order Summary</h3>
+        <p>
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+      </div>
+
+      <!-- Add a div for the music section -->
+
+      <div class="ms">
+        <div class="music-icon">
+          <img src="/images/icon-music.svg" alt="" />
+        </div>
+        <div class="info">
+          <h4>Annual Plan</h4>
+          <p>&dollar;59.99/year</p>
+        </div>
+
+        <a href="#">Change</a>
+      </div>
+
+      <!-- Add another div for payment -->
+
+      <button class="payment">Proceed to Payment</button>
+
+      <button>Cancel Order</button>
+    </div>
+
+    <script>
+      const cancelBtn = document.querySelector("button");
+      const proceedBtn = document.querySelector(".payment");
+
+      cancelBtn.addEventListener("click");
+    </script>
+  </body>
+</html>
